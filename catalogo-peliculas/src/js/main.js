@@ -2,7 +2,7 @@ import '../scss/style.scss'
 import * as bootstrap from 'bootstrap'
 
 import { obtenerDatos } from './api/datos.js'
-import { Pelicula } from './componentes/Pelicula';
+import Pelicula from './componentes/Pelicula';
 
 const Vistas = {
   LISTA_PELICULAS: 'lista-peliculas',

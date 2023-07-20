@@ -1,4 +1,4 @@
-export class Pelicula {
+export default class Pelicula {
 
   constructor(datosPelicula, cambiarFavorito) {
     Object.assign(this, datosPelicula);
