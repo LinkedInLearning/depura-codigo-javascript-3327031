@@ -19,21 +19,7 @@ let vistaActual = Vistas.LISTA_PELICULAS;
  */
 const cambiarFavorito = (index, esFavorito) => {
   listaPeliculas[index].esFavorito = esFavorito;
-  if (vistaActual === Vistas.LISTA_PELICULAS) {
-    generarListaPeliculas(listaPeliculas);
-  } else {
-    generarListaPeliculas(listaPeliculas.filter(pelicula => pelicula.esFavorito));
-  }
-}
-
-/**
- * Elimina todos los elementos hijos de un nodo HTML que se pase como parámetro.
- * @param {Node} el 
- */
-const eliminarElementosHijos = (el) => {
-  while (el.firstChild) {
-    el.removeChild(el.lastChild);
-  }
+  generarListaPeliculas(listaPeliculas);
 }
 
 /**
@@ -42,7 +28,6 @@ const eliminarElementosHijos = (el) => {
  */
 const generarListaPeliculas = (peliculas) => {
   const row = document.getElementsByClassName('row')[0];
-  eliminarElementosHijos(row);
   for (const pelicula of peliculas) {
     const peliculaUI = new Pelicula(pelicula, cambiarFavorito);
     row.appendChild(peliculaUI.render());
@@ -59,7 +44,7 @@ document.getElementById('lista-peliculas').addEventListener('click', () => {
 
 document.getElementById('favoritas').addEventListener('click', () => {
   vistaActual = Vistas.FAVORITAS;
-  generarListaPeliculas(listaPeliculas.filter(pelicula => pelicula.esFavorito));
+  generarListaPeliculas(listaPeliculas);
 });
 
 /**

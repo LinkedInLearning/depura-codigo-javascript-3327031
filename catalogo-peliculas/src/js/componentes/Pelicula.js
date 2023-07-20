@@ -24,7 +24,6 @@ export default class Pelicula {
   </div>
 </div>`;
     const boton = document.createElement('button');
-    boton.addEventListener('click', () => this.cambiarFavorito(this.index, !this.esFavorito));
     boton.className = this.esFavorito ? 'btn btn-secondary' : 'btn btn-primary';
     boton.innerText = this.esFavorito ? 'Remover de Favoritos' : 'Agregar a Favoritos';
     col.getElementsByClassName('card-body')[1].appendChild(boton);

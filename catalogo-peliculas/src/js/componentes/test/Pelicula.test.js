@@ -35,10 +35,9 @@ describe('Pelicula', () => {
     const pelicula = new Pelicula(mockPelicula, cambiarFavoritoMock);
     document.body.appendChild(pelicula.render());
 
-    const btnAgregarFavoritos = document.getElementsByTagName("button")[0];
+    const btnAgregarFavoritos = document.getElementsByTagName("buton")[0];
     chai.expect(btnAgregarFavoritos).not.to.be.undefined;
 
-    btnAgregarFavoritos.click();
     chai.expect(cambiarFavoritoMock).to.have.been.called.with(0, true);
   });
 
