@@ -2,8 +2,8 @@
 
 Este es el repositorio del curso de LinkedIn Learning `Depura el código: JavaScript`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![Nombre completo del curso][lil-thumbnail-url] 
-
+![image](https://github.com/LinkedInLearning/depura-codigo-javascript-3327031/assets/71371373/6076ad94-4d51-4961-964a-25c4950aa6b1)
+ 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
 Aprende a mejorar tus habilidades de depuración en JavaScript con este curso. Te brindará la oportunidad de practicar la resolución de problemas en aplicaciones JavaScript. A través de ejercicios prácticos, aprenderás a identificar y solucionar errores en un proyecto JavaScript, mejorando tu capacidad para encontrar y corregir problemas en tu propio código. Aprovecha esta oportunidad para perfeccionar tus habilidades de depuración y llevar tus proyectos JavaScript al siguiente nivel.
@@ -30,7 +30,7 @@ Este repositorio contiene una aplicación JavaScript. En el repositorio se encue
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/natalia-corea).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
+[lil-course-url]: https://www.linkedin.com/learning/depura-el-codigo-javascript/depurar-codigo-en-javascript
 [lil-thumbnail-url]: https:
 
 [1]: # (End of ES-Instruction ###############################################################################################)
