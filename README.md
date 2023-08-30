@@ -31,6 +31,7 @@ Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/depura-el-codigo-javascript/depurar-codigo-en-javascript
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQE6NVqxOM13WQ/learning-public-crop_675_1200/0/1692854972267?e=1694005200&v=beta&t=5r9heLqGZo-wYMebPwLUs4uy4MYUd53BW93vhBTBod0
+
 
 [1]: # (End of ES-Instruction ###############################################################################################)
