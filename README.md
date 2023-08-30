@@ -2,8 +2,8 @@
 
 Este es el repositorio del curso de LinkedIn Learning `Depura el código: JavaScript`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![image](https://github.com/LinkedInLearning/depura-codigo-javascript-3327031/assets/71371373/6076ad94-4d51-4961-964a-25c4950aa6b1)
- 
+![image](https://github.com/LinkedInLearning/depura-codigo-javascript-3327031/assets/71371373/e3d1bc67-7e0f-4249-93b6-55554820c8b0)
+
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
 Aprende a mejorar tus habilidades de depuración en JavaScript con este curso. Te brindará la oportunidad de practicar la resolución de problemas en aplicaciones JavaScript. A través de ejercicios prácticos, aprenderás a identificar y solucionar errores en un proyecto JavaScript, mejorando tu capacidad para encontrar y corregir problemas en tu propio código. Aprovecha esta oportunidad para perfeccionar tus habilidades de depuración y llevar tus proyectos JavaScript al siguiente nivel.
